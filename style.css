@@ -1,3 +1,35 @@
 *{
-    color: green;
+    /* center all the text */
+    text-align: center;
+    background-color: #232831;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+body{
+    margin: 5% 20%;
+}
+
+.logo{
+    width: 20vh;
+}
+
+h1{
+    color: #ff7575;
+    font-style: italic;
+}
+
+h2{
+    color: white;
+}
+
+.sections{
+    /* if you center all the section his childrens will convert to flex items */
+    display: flex;
+    margin: 2em;
+}
+
+.sections p{
+    color: white;
+    margin: 0 auto;
 }
