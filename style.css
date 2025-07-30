@@ -7,7 +7,7 @@
 }
 
 body{
-    margin: 5% 20%;
+    margin: 5%;
 }
 
 .logo{
@@ -26,10 +26,49 @@ h2{
 .sections{
     /* if you center all the section his childrens will convert to flex items */
     display: flex;
+    /* if the sections does not fit in one row, move it to other ones */
+    flex-wrap: wrap;
     margin: 2em;
 }
 
 .sections p{
     color: white;
+    padding: 0.5em;
     margin: 0 auto;
+}
+
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+.notes .note{
+    background-color: white;
+    border-radius: 20px;
+    padding: 3vw;  
+    margin: 2vw auto;
+    flex-basis: 100px;
+}
+
+.note img{
+    width: 300px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.notes p,h3{
+    background-color: white;
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    margin: 0 0 0 1;
+}
+
+#title{
+    font-weight: bold;
+}
+
+#foot{
+    font-size: 0.8em;
 }
