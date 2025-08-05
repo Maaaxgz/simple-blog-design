@@ -8,7 +8,7 @@
 
 body{
     /* margin of all the page */
-    margin: 5%;
+    margin: 2% 5%;
 }
 
 .logo{
@@ -75,5 +75,19 @@ h2{
 }
 
 footer, header{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5%;
+}
+
+header > p{
+    margin-left: 1em;
+    color: #7b8cac;
+}
+
+header p:nth-child(1){
+    flex: 4;
+    text-align: left;
     color: white;
 }
